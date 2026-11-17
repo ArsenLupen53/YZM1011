@@ -23,7 +23,7 @@ def sum_reverse(n):
         remainder = n % 10
         n = n // 10
         sum+=remainder
-        reversed = reversed + f"{remainder}"
+        reversed = reversed + str(remainder)
 
     return sum, int(reversed)
 
